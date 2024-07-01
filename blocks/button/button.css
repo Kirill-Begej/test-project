@@ -1,0 +1,10 @@
+.button {
+  border-radius: 66px;
+  border: 2px solid var(--primaryButtonColor);
+  cursor: pointer;
+  font: 16px 'GolosTextMedium', Arial, sans-serif;
+  padding: 15.2px 47.4px;
+  transition: background .3s ease-out,
+              border-color .3s ease-out,
+              color .3s ease-out;
+}

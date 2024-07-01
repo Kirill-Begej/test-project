@@ -1,0 +1,8 @@
+.button_type_transparent {
+  background-color: transparent;
+}
+
+.button_type_transparent:hover {
+  background: var(--primaryButtonColor);
+  color:#fff;
+}

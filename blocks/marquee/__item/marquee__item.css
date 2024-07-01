@@ -1,0 +1,13 @@
+.marquee__item {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.marquee__item::after {
+  background: #fff;
+  border-radius: 50%;
+  content: '';
+  height: 6px;
+  width: 6px;
+}

@@ -1,1 +1,27 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../vendor/variables.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__wrap/intro__wrap.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/__image/logo__image.css');
+@import url('../blocks/intro/__content/intro__content.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__title-desc/intro__title-desc.css');
+@import url('../blocks/intro/__title-str/intro__title-str.css');
+@import url('../blocks/intro/__desc/intro__desc.css');
+@import url('../blocks/intro/__buttons/intro__buttons.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/__text/button__text.css');
+@import url('../blocks/marquee/marquee.css');
+@import url('../blocks/marquee/__list/marquee__list.css');
+@import url('../blocks/marquee/__item/marquee__item.css');
+@import url('../blocks/marquee/__item-text/marquee__item-text.css');
+
+@import url('../blocks/button/_type/button_type_black.css');
+@import url('../blocks/button/_type/button_type_transparent.css');
+@import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_left.css');
+@import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_right.css');

@@ -1,0 +1,10 @@
+.marquee {
+  background: #F54932;
+  color: #fff;
+  display: flex;
+  font: 22px 'MerriweatherRegular', 'Times New Roman', serif;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 19px 0;
+  text-transform: uppercase;
+}

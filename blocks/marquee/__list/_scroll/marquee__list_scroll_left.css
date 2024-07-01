@@ -1,0 +1,12 @@
+.marquee__list_scroll_left {
+  animation: scrollFromRightToLeft 20s linear infinite;
+}
+
+@keyframes scrollFromRightToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 12px));
+  }
+}
