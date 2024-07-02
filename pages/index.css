@@ -4,7 +4,7 @@
 @import url('../blocks/root/root.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/__wrap/intro__wrap.css');
+@import url('../blocks/wrapper/wrapper.css');
 @import url('../blocks/container/container.css');
 @import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/header/header.css');
@@ -28,8 +28,18 @@
 @import url('../blocks/intro/__background-img/intro__background-img.css');
 @import url('../blocks/intro/__background-chessmen/intro__background-chessmen.css');
 @import url('../blocks/intro/__background-bg/intro__background-bg.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/support/support.css');
+@import url('../blocks/support/__container/support__container.css');
+@import url('../blocks/support/__title/support__title.css');
+@import url('../blocks/support/__image/support__image.css');
+@import url('../blocks/support/__image-wrapper/support__image-wrapper.css');
+@import url('../blocks/support/__image-container/support__image-container.css');
+@import url('../blocks/support/__image-pic/support__image-pic.css');
 
 @import url('../blocks/button/_type/button_type_black.css');
 @import url('../blocks/button/_type/button_type_transparent.css');
 @import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_left.css');
 @import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_right.css');
+@import url('../blocks/title/_type/title_type_subtitle.css');
+@import url('../blocks/support/__title/_visible/support__title_visible_tablet.css');
