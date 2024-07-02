@@ -1,0 +1,31 @@
+.play__table-cell {
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+}
+
+.play__table-cell:nth-child(odd) {
+  border-left: none;
+  flex: 0 1 43.5%;
+}
+
+.play__table-cell:nth-child(even) {
+  border-right: none;
+  flex: 0 1 56.5%;
+  font: 20px 'GolosTextSemibold', Arial, sans-serif;
+  padding-left: 15px;
+}
+
+.play__table-cell:nth-child(-n+2) {
+  border-top: none;
+  padding-bottom: 15px;
+}
+
+.play__table-cell:nth-last-child(-n+2) {
+  border-bottom: none;
+  padding-top: 15px;
+}
+
+.play__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)) {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
