@@ -7,6 +7,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 22px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .intro {
     padding-top: 18px;

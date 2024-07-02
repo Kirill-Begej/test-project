@@ -4,6 +4,12 @@
   margin-bottom: 22px;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 48px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .intro__title {
     font-size: 36px;

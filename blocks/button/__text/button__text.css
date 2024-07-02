@@ -3,7 +3,7 @@
   width: 165px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .button__text {
     width: 100%;
   }

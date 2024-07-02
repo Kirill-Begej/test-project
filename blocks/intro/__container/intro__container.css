@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .intro__container {
+    display: flex;
+    flex-direction: column;
+  }
+}

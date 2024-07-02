@@ -5,6 +5,13 @@
   z-index: 100;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__content {
+    align-self: center;
+    margin-bottom: 208px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .intro__content {
     margin-bottom: 291px;

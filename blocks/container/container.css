@@ -3,8 +3,14 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 89.46%;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .container {
-    width: 89.33%;
+    width: 89.6%;
   }
 }
