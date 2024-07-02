@@ -4,3 +4,11 @@
   bottom: 1.3%;
   z-index: 30;
 }
+
+@media screen and (max-width: 375px) {
+  .intro__background-chessmen {
+    transform: scale(.5);
+    right: 23.5%;
+    bottom: -6%;
+  }
+}
