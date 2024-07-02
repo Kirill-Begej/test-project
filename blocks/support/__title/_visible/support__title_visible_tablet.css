@@ -1,3 +1,9 @@
 .support__title_visible_tablet {
   display: none;
 }
+
+@media screen and (max-width: 375px) {
+  .support__title_visible_tablet {
+    display: block;
+  }
+}

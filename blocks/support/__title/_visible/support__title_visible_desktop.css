@@ -1,0 +1,5 @@
+@media screen and (max-width: 375px) {
+  .support__title_visible_desktop {
+    display: none;
+  }
+}

@@ -2,3 +2,10 @@
   margin-bottom: 32px;
   padding-top: 80px;
 }
+
+@media screen and (max-width: 375px) {
+  .support {
+    margin-bottom: 10px;
+    padding-top: 48px;
+  }
+}

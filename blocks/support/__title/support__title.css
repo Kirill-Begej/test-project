@@ -1,4 +1,12 @@
 .support__title {
   flex: 0 1 764px;
   font-size: 36px;
+  line-height: 1.35;
+}
+
+@media screen and (max-width: 375px) {
+  .support__title {
+    flex: auto;
+    font-size: 28px;
+  }
 }
