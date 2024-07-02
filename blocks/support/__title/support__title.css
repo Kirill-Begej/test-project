@@ -4,9 +4,15 @@
   line-height: 1.35;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .support__title {
     flex: auto;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .support__title {
     font-size: 28px;
   }
 }

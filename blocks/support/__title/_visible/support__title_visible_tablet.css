@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .support__title_visible_tablet {
     display: block;
   }

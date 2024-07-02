@@ -5,9 +5,15 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .support__container {
     flex-direction: column;
+    gap: 27px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .support__container {
     gap: 25px;
   }
 }

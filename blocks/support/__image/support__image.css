@@ -2,7 +2,7 @@
   flex: 0 1 394px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .support__image {
     flex: auto;
     width: 100%;

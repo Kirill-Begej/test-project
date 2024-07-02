@@ -3,6 +3,13 @@
   padding-top: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .support {
+    margin-bottom: 20px;
+    padding-top: 64px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .support {
     margin-bottom: 10px;
