@@ -1,4 +1,10 @@
-header {
+.header {
   display: flex;
   margin-bottom: 65px;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    margin-bottom: 40px;
+  }
 }

@@ -3,3 +3,9 @@
   line-height: 1.1;
   margin-bottom: 22px;
 }
+
+@media screen and (max-width: 375px) {
+  .intro__title {
+    font-size: 36px;
+  }
+}

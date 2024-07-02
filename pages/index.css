@@ -7,6 +7,7 @@
 @import url('../blocks/intro/__wrap/intro__wrap.css');
 @import url('../blocks/container/container.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/intro/__header/intro__header.css');
 @import url('../blocks/logo/__image/logo__image.css');
 @import url('../blocks/intro/__content/intro__content.css');
 @import url('../blocks/intro/__title/intro__title.css');
@@ -17,9 +18,15 @@
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__text/button__text.css');
 @import url('../blocks/marquee/marquee.css');
+@import url('../blocks/intro/__marquee/intro__marquee.css');
 @import url('../blocks/marquee/__list/marquee__list.css');
 @import url('../blocks/marquee/__item/marquee__item.css');
 @import url('../blocks/marquee/__item-text/marquee__item-text.css');
+@import url('../blocks/intro/__background/intro__background.css');
+@import url('../blocks/intro/__background-container/intro__background-container.css');
+@import url('../blocks/intro/__background-img/intro__background-img.css');
+@import url('../blocks/intro/__background-chessmen/intro__background-chessmen.css');
+@import url('../blocks/intro/__background-bg/intro__background-bg.css');
 
 @import url('../blocks/button/_type/button_type_black.css');
 @import url('../blocks/button/_type/button_type_transparent.css');

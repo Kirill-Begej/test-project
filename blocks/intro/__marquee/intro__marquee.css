@@ -1,0 +1,4 @@
+.intro__marquee {
+  position: relative;
+  z-index: 100;
+}

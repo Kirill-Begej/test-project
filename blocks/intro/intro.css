@@ -1,11 +1,14 @@
 .intro {
-  background: image-set(
-    url('../../images/intro/intro-bg@1x.webp') type('image/webp') 1x,
-    url('../../images/intro/intro-bg@2x.webp') type('image/webp') 2x,
-    url('../../images/intro/intro-bg@1x.png') type('image/png') 1x,
-    url('../../images/intro/intro-bg@2x.png') type('image/png') 2x
-  ) center top;
+  background-color: var(--bgColor);
   color: var(--primaryColor);
   font: 18px 'GolosTextRegular', Arial, sans-serif;
+  overflow: hidden;
   padding-top: 26px;
+  position: relative;
+}
+
+@media screen and (max-width: 375px) {
+  .intro {
+    padding-top: 18px;
+  }
 }

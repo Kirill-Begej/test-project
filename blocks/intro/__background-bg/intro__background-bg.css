@@ -1,0 +1,6 @@
+.intro__background-bg {
+  inset: 0;
+  opacity: .15;
+  position: absolute;
+  z-index: 20;
+}

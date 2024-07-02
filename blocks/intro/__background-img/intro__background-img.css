@@ -1,0 +1,7 @@
+.intro__background-img {
+  left: 50.7%;
+  position: relative;
+  top: 41%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}

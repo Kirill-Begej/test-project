@@ -1,4 +1,12 @@
 .intro__content {
   margin-bottom: 128px;
   max-width: 542px;
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 375px) {
+  .intro__content {
+    margin-bottom: 291px;
+  }
 }

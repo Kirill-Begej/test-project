@@ -2,3 +2,9 @@
   display: block;
   width: 165px;
 }
+
+@media screen and (max-width: 375px) {
+  .button__text {
+    width: 100%;
+  }
+}

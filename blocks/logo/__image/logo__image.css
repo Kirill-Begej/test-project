@@ -1,5 +1,13 @@
 .logo__image {
   display: block;
   height: 36px;
-  width: 245px;
+  width: 246px;
+  fill: #595653;
+}
+
+@media screen and (max-width: 375px) {
+  .logo__image {
+    height: 32px;
+    width: 213px;
+  }
 }

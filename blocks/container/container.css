@@ -2,3 +2,9 @@
   max-width: 1222px;
   width: 100%;
 }
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 89.33%;
+  }
+}
