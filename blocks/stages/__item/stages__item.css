@@ -1,0 +1,16 @@
+.stages__item {
+  background-image: image-set(
+    url('../../../images/stages/stages-bg@1x.webp') type('image/webp') 1x,
+    url('../../../images/stages/stages-bg@2x.webp') type('image/webp') 2x,
+    url('../../../images/stages/stages-bg@1x.png') type('image/png') 1x,
+    url('../../../images/stages/stages-bg@2x.png') type('image/png') 2x
+  );
+  background-position: center center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 5% 5% 5% 18.4%;
+}
+
+.stages__item:last-child {
+  padding: 2.6% 40% 2% 9%;
+}

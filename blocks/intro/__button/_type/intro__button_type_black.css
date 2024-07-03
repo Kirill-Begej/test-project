@@ -1,9 +1,9 @@
-.button_type_black {
+.intro__button_type_black {
   background: var(--primaryButtonColor);
   color: #fff;
 }
 
-.button_type_black:hover {
+.intro__button_type_black:hover {
   background: var(--secondaryButtonColor);
   border-color: var(--secondaryButtonColor);
   color: var(--primaryButtonColor);

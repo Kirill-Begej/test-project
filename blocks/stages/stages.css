@@ -1,0 +1,10 @@
+.stages {
+  align-items: center;
+  color: var(--primaryColor);
+  display: flex;
+  flex-direction: column;
+  font: 20px 'GolosTextMedium', Arial, sans-serif;
+  line-height: 1.2;
+  margin-bottom: 100px;
+  padding-top: 87px;
+}

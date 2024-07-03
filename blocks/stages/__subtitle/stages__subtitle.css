@@ -1,0 +1,10 @@
+.stages__subtitle {
+  color: var(--tertiaryColor);
+  display: inline-block;
+  font: 20px 'GolosTextRegular', Arial, sans-serif;
+  left: 6px;
+  max-width: 280px;
+  position: relative;
+  text-transform: none;
+  top: -2.5px;
+}

@@ -1,6 +1,6 @@
 .title {
   color: var(--primaryColor);
-  font-family: 'MerriweatherRegular', 'Times New Roman', serif;
+  font: 54px 'MerriweatherRegular', 'Times New Roman', serif;
   margin: 0;
   text-transform: uppercase;
 }

@@ -1,15 +1,14 @@
 .intro__background-img {
-  position: absolute;=
-  transform: translate(-50%, -50%);
-  z-index: 10;
   bottom: 4%;
+  position: absolute;
   right: -18%;
+  z-index: 10;
 }
 
 @media screen and (max-width: 375px) {
   .intro__background-img {
-    transform: scale(.51);
     bottom: -21%;
     right: -5.2%;
+    transform: scale(.51);
   }
 }

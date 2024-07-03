@@ -1,10 +1,10 @@
-.button__text {
+.intro__button-text {
   display: block;
   width: 165px;
 }
 
 @media screen and (max-width: 768px) {
-  .button__text {
+  .intro__button-text {
     width: 100%;
   }
 }
