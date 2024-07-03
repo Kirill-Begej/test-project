@@ -4,3 +4,10 @@
   margin-bottom: 59px;
   max-width: 688px;
 }
+
+@media screen and (max-width: 375px) {
+  .play__title {
+    font-size: 28px;
+    margin-bottom: 41px;
+  }
+}

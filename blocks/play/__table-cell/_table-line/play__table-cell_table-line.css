@@ -1,0 +1,16 @@
+@media screen and (max-width: 375px) {
+  .play__table-cell_table-line:nth-child(n) {
+    border-bottom: 1px solid #D0D0D0;
+    border-top: 1px solid #D0D0D0;
+  }
+
+  .play__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):nth-child(odd) + .play__table-cell_table-line {
+    padding: 15px 0;
+    flex: 0 1 54%;
+  }
+
+  .play__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):nth-child(even) + .play__table-cell_table-line {
+    padding: 15px 0;
+    flex: 0 1 46%;
+  }
+}

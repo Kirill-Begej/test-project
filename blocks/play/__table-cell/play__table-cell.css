@@ -29,3 +29,35 @@
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
+@media screen and (max-width: 375px) {
+  .play__table-cell:nth-child(odd) {
+    border-bottom: none;
+    border-right: none;
+    flex: 0 1 100%;
+    padding-bottom: 13px;
+  }
+
+  .play__table-cell:nth-child(even) {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    flex: 0 1 100%;
+    padding-bottom: 14px;
+    padding-left: 0;
+  }
+
+  .play__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):nth-child(odd) {
+    padding-bottom: 6px;
+    padding-top: 15px;
+  }
+
+  .play__table-cell:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):nth-child(even) {
+    padding-bottom: 15px;
+    padding-top: 6px;
+  }
+
+  .play__table-cell:nth-last-child(1) {
+    padding: 0;
+  }
+}
