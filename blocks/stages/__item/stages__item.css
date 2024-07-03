@@ -9,8 +9,29 @@
   background-size: cover;
   box-sizing: border-box;
   padding: 5% 5% 5% 18.4%;
+  position: relative;
 }
 
 .stages__item:last-child {
   padding: 2.6% 40% 2% 9%;
+}
+
+.stages__item::before {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  content: counter(myCounter);
+  counter-increment: myCounter;
+  display: flex;
+  font: calc(1vw + 5px) 'GolosTextSemibold', Arial, sans-serif;
+  height: 2.72vw;
+  justify-content: center;
+  left: 5%;
+  position: absolute;
+  top: 19px;
+  width: 2.72vw;
+}
+
+.stages__item:last-child::before {
+  left: 2.4%;
 }
