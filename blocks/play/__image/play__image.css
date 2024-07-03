@@ -5,12 +5,7 @@
 @media screen and (max-width: 768px) {
   .play__image {
     flex: auto;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .play__image {
     transform: scale(1.1);
+    width: 100%;
   }
 }

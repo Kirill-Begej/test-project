@@ -5,6 +5,13 @@
   max-width: 688px;
 }
 
+@media screen and (max-width: 768px) {
+  .play__title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .play__title {
     font-size: 28px;

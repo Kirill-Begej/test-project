@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .play__table {
+    margin-bottom: 44px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .play__table {
     margin-bottom: 40px;
