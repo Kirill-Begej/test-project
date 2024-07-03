@@ -1,0 +1,4 @@
+.pagination__item_active {
+  cursor: auto;
+  background-color: var(--primaryColor);
+}

@@ -51,9 +51,15 @@
 @import url('../blocks/stages/__title/stages__title.css');
 @import url('../blocks/stages/__subtitle/stages__subtitle.css');
 @import url('../blocks/stages/__content/stages__content.css');
+@import url('../blocks/stages/__container/stage__container.css');
 @import url('../blocks/stages/__list/stages__list.css');
 @import url('../blocks/stages/__item/stages__item.css');
 @import url('../blocks/stages/__image/stages__image.css');
+@import url('../blocks/pagination/pagination.css');
+@import url('../blocks/pagination/__button/pagination__button.css');
+@import url('../blocks/pagination/__button-image/pagination__button-image.css');
+@import url('../blocks/pagination/__list/pagination__list.css');
+@import url('../blocks/pagination/__item/pagination__item.css');
 
 @import url('../blocks/intro/__button/_type/intro__button_type_black.css');
 @import url('../blocks/intro/__button/_type/intro__button_type_transparent.css');
@@ -66,3 +72,12 @@
 @import url('../blocks/play/__table-cell/_table-line/play__table-cell_table-line.css');
 @import url('../blocks/stages/__item/_size/stage__item_size_big-column.css');
 @import url('../blocks/stages/__item/_size/stage__item_size_big-row.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column-first.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column-third.css');
+@import url('../blocks/stages/__item/_size/stage__item_size_small-column.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_first.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_second.css');
+@import url('../blocks/stages/__item/_amount-blocks/stage__item_amount-blocks_only-one.css');
+@import url('../blocks/pagination/__button/_type/pagination__button_type_right.css');
+@import url('../blocks/pagination/__button/_not-active/pagination__button_not-active.css');
+@import url('../blocks/pagination/__item/_active/pagination__item_active.css');

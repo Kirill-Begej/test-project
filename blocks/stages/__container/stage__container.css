@@ -1,11 +1,11 @@
-.stages__content {
+.stage__container {
   position: relative;
   width: 100%;
 }
 
 @media screen and (max-width: 375px) {
-  .stages__content {
-    margin-bottom: 28px;
+  .stage__container {
+    overflow: hidden;
     width: 100%;
   }
 }

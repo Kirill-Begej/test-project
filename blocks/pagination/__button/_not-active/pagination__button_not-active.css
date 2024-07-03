@@ -1,0 +1,4 @@
+.pagination__button_not-active {
+  background-color: rgba(49, 49, 49, .2);
+  cursor: auto;
+}

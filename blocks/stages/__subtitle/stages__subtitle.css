@@ -8,3 +8,13 @@
   text-transform: none;
   top: -2.5px;
 }
+
+@media screen and (max-width: 375px) {
+  .stages__subtitle {
+    letter-spacing: -1.2px;
+    margin-left: -6px;
+    margin-top: 11px;
+    max-width: none;
+    width: 100%;
+  }
+}

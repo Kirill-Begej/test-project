@@ -5,3 +5,13 @@
   right: -5%;
   width: 32.8%;
 }
+
+@media screen and (max-width: 375px) {
+  .stages__image {
+    left: 4%;
+    right: auto;
+    bottom: 79%;
+    transform: rotate(-4deg);
+    width: 100%;
+  }
+}

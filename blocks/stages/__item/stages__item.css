@@ -6,10 +6,10 @@
     url('../../../images/stages/stages-bg@2x.png') type('image/png') 2x
   );
   background-position: center center;
-  background-size: cover;
   box-sizing: border-box;
   padding: 5% 5% 5% 18.4%;
   position: relative;
+  font-size: calc(1vw + 6.4px);
 }
 
 .stages__item:last-child {
@@ -34,4 +34,20 @@
 
 .stages__item:last-child::before {
   left: 2.4%;
+}
+
+@media screen and (max-width: 375px) {
+  .stages__item {
+    font-size: 18px;
+    width: auto;
+    height: auto;
+  }
+
+  .stages__item::before {
+    font-size: calc(1vw + 15px);
+    height: 9vw;
+    left: 6.5%;
+    top: 62px;
+    width: 9vw;
+  }
 }

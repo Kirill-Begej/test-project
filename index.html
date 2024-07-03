@@ -123,19 +123,41 @@
       <section class="stages">
         <h2 class="title stages__title"><span class="stages__title-row">Этапы преображения Васюков </span><span class="stages__subtitle">Будущие источники обогащения васюкинцев</span></h2>
         <div class="stages__content">
-          <ol class="stages__list">
-            <li class="stages__item">Строительство железнодорожной магистрали Москва-Васюки</li>
-            <li class="stages__item">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</li>
-            <li class="stages__item stage__item_size_big-column">Поднятие сельского хозяйства в радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</li>
-            <li class="stages__item">Строительство дворца для&nbsp;турнира</li>
-            <li class="stages__item">Размещение гаражей для&nbsp;гостевого автотранспорта</li>
-            <li class="stages__item">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</li>
-            <li class="stages__item stage__item_size_big-row">Создание аэропорта «Большие Васюки» с&nbsp;регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</li>
-          </ol>
+          <div class="stage__container">
+            <ol class="stages__list">
+              <li class="stages__item stage__item_amount-blocks_first">Строительство железнодорожной магистрали Москва-Васюки</li>
+              <li class="stages__item stage__item_size_small-column-first stage__item_amount-blocks_second">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</li>
+              <li class="stages__item stage__item_size_big-column stage__item_size_small-column stage__item_amount-blocks_only-one">Поднятие сельского хозяйства в радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</li>
+              <li class="stages__item stage__item_amount-blocks_first">Строительство дворца для&nbsp;турнира</li>
+              <li class="stages__item stage__item_size_small-column-third stage__item_amount-blocks_second">Размещение гаражей для&nbsp;гостевого автотранспорта</li>
+              <li class="stages__item stage__item_size_small-column stage__item_amount-blocks_only-one">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</li>
+              <li class="stages__item stage__item_size_big-row stage__item_size_small-column stage__item_amount-blocks_only-one">Создание аэропорта «Большие Васюки» с&nbsp;регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</li>
+            </ol>
+          </div>
           <picture>
             <source type="image/webp" srcset="./images/stages/stages-image@1x.webp 1x, ./images/stages/stages-image@2x.webp 2x">
             <img src="./images/stages/stages-image@1x.png" srcset="./images/stages/stages-image@2x.png 2x" alt="Биплан." class="stages__image">
           </picture>
+        </div>
+        <div class="pagination">
+          <button class="pagination__button pagination__button_not-active" type="button">
+            <svg class="pagination__button-image">
+              <use href="./images/pagination/pagination.svg#button"></use>
+            </svg>
+          </button>
+          <ul class="pagination__list">
+            <li class="pagination__item pagination__item_active">
+            </li>
+            <li class="pagination__item"></li>
+            <li class="pagination__item"></li>
+            <li class="pagination__item"></li>
+            <li class="pagination__item"></li>
+          </ul>
+          <button class="pagination__button pagination__button_type_right" type="button">
+            <svg class="pagination__button-image">
+              <use href="./images/pagination/pagination.svg#button"></use>
+            </svg>
+          </button>
         </div>
       </section>
     </div>

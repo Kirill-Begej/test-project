@@ -8,3 +8,9 @@
   margin-bottom: 100px;
   padding-top: 87px;
 }
+
+@media screen and (max-width: 375px) {
+  .stages {
+    padding-top: 93px;
+  }
+}
