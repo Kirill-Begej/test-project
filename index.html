@@ -28,10 +28,10 @@
           <h1 class="title intro__title">Превратите уездный город <span class="intro__title-desc">в столицу <span class="intro__title-str">земного шара</span></span></h1>
           <p class="intro__desc">Оплатите взнос на телеграммы для&nbsp;организации Международного васюкинского турнира по шахматам</p>
           <div class="intro__buttons">
-            <button class="intro__button intro__button_type_black">
+            <button class="intro__button intro__button_type_black" title="Поддержать шахматную мысль." aria-label="Поддержать шахматную мысль">
               <span class="intro__button-text">Поддержать шахматную мысль</span>
             </button>
-            <button class="intro__button intro__button_type_transparent">
+            <button class="intro__button intro__button_type_transparent" title="Подробнее о турнире." aria-label="Подробнее о турнире">
               <span class="intro__button-text">Подробнее о&nbsp;турнире</span>
             </button>
           </div>
@@ -140,7 +140,7 @@
           </picture>
         </div>
         <div class="pagination">
-          <button class="button button_not-active" type="button">
+          <button class="button button_not-active" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
@@ -153,11 +153,103 @@
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
           </ul>
-          <button class="button button_type_right" type="button">
+          <button class="button button_type_right" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
           </button>
+        </div>
+      </section>
+      <section class="members">
+        <h2 class="title members__title">Участники турнира</h2>
+        <div class="members__container">
+          <ul class="members__list">
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Хозе-Рауль Капабланка</h3>
+              <p class="members__text">Чемпион мира по шахматам</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Эммануил Ласкер</h3>
+              <p class="members__text">Чемпион мира по шахматам</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Александр Алехин</h3>
+              <p class="members__text">Чемпион мира по шахматам</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Арон Нимцович</h3>
+              <p class="members__text">Чемпион мира по шахматам</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Рихард Рети</h3>
+              <p class="members__text">Чемпион мира по шахматам</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+            <li class="members__item">
+              <picture>
+                <source type="image/webp"
+                  srcset="./images/members/members-image@1x.webp 1x, ./images/members/members-image@2x.webp 2x">
+                <img src="./images/members/members-image@1x.png" srcset="./images/members/members-image@2x.png 2x"
+                  alt="Изображение участника турнира." class="members__image">
+              </picture>
+              <h3 class="members__subtitle">Остап Бендер</h3>
+              <p class="members__text">Гроссмейстер</p>
+              <a href="#" class="members__link" target="_blank">Подробнее</a>
+            </li>
+          </ul>
+        </div>
+        <div class="members__pagination">
+          <div class="pagination-slider">
+            <button class="button pagination-slider__button" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
+              <svg class="button__image">
+                <use href="./images/pagination/pagination.svg#button"></use>
+              </svg>
+            </button>
+            <div class="pagination-slider__numbers">
+              <div class="pagination-slider__slide-number">3</div>
+              <div class="pagination-slider__separator">/</div>
+              <div class="pagination-slider__number-slides">6</div>
+            </div>
+            <button class="button button_type_right pagination-slider__button" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть вправо">
+              <svg class="button__image">
+                <use href="./images/pagination/pagination.svg#button"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
     </div>

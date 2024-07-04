@@ -1,0 +1,10 @@
+.members {
+  color: var(--primaryColor);
+  display: grid;
+  font: 20px 'GolosTextRegular', Arial, sans-serif;
+  grid-template-columns: 85% 15%;
+  line-height: 1.2;
+  margin-bottom: 140px;
+  padding-top: 105px;
+  row-gap: 62px;
+}

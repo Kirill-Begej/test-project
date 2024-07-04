@@ -1,0 +1,8 @@
+.pagination-slider {
+  align-items: center;
+  color: rgba(49, 49, 49, .6);
+  display: flex;
+  font: 16px 'GolosTextRegular', Arial, sans-serif;
+  gap: 16px;
+  line-height: 1.2;
+}

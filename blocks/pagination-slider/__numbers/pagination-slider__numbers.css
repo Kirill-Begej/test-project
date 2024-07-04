@@ -1,0 +1,4 @@
+.pagination-slider__numbers {
+  display: flex;
+  gap: 3px;
+}
