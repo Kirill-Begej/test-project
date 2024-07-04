@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .members__list {
+    grid-template-columns: repeat(6, calc((100% - 20px) / 2));
+  }
+}
+
 @media screen and (max-width: 375px) {
   .members__list {
     gap: 0;

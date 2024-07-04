@@ -5,6 +5,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .members__image {
+    max-width: 280px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .members__image {
     max-width: 244px;
