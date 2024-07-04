@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" id="html">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -14,7 +14,7 @@
   <title>Клуб четырех коней</title>
 </head>
 
-<body class="root" id="body">
+<body class="root">
 
   <section class="intro">
     <div class="intro__wrapper">
@@ -142,20 +142,20 @@
           </picture>
         </div>
         <div class="pagination">
-          <button class="button button_not-active" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
+          <button class="button" id="buttonLeft" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
           </button>
           <ul class="pagination__list">
-            <li class="pagination__item pagination__item_active">
+            <li class="pagination__item">
             </li>
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
           </ul>
-          <button class="button button_type_right" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
+          <button class="button button_type_right" id="buttonRight" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>

@@ -6,6 +6,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  position: relative;
+  transition: transform .3s ease-out;
   width: 100%;
 }
 
@@ -13,6 +15,5 @@
   .stages__list {
     gap: 0;
     grid-template-columns: repeat(5, 100%);
-    position: relative;
   }
 }

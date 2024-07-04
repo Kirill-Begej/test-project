@@ -1,5 +1,5 @@
-import { enablingScrollbar } from './scrollbar.js';
 import { pageScroll } from './pageScroll.js';
+import { slider } from './slider.js';
 
-enablingScrollbar();
 pageScroll();
+slider();
