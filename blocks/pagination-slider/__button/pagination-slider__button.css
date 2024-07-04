@@ -2,3 +2,10 @@
   height: 44px;
   width: 44px;
 }
+
+@media screen and (max-width: 768px) {
+  .pagination-slider__button {
+    height: 36px;
+    width: 36px;
+  }
+}

@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 375px) {
   .stages {
+    margin-bottom: 62px;
     padding-top: 93px;
   }
 }

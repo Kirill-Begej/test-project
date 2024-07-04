@@ -4,3 +4,10 @@
   overflow: hidden;
   width: 100%;
 }
+
+@media screen and (max-width: 375px) {
+  .members__container {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+}

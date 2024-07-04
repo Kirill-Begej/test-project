@@ -6,3 +6,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 375px) {
+  .members__list {
+    gap: 0;
+    grid-template-columns: repeat(6, 100%);
+  }
+}

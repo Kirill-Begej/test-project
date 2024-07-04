@@ -6,3 +6,12 @@
   position: relative;
   top: -4px;
 }
+
+@media screen and (max-width: 375px) {
+  .members__pagination {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-content: center;
+    top: auto;
+  }
+}

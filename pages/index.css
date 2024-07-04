@@ -61,6 +61,7 @@
 @import url('../blocks/pagination/__list/pagination__list.css');
 @import url('../blocks/pagination/__item/pagination__item.css');
 @import url('../blocks/members/members.css');
+@import url('../blocks/members/__title/members__title.css');
 @import url('../blocks/members/__container/members__container.css');
 @import url('../blocks/members/__list/members__list.css');
 @import url('../blocks/members/__item/members__item.css');
