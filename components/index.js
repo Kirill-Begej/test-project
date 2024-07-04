@@ -1,5 +1,5 @@
 import { pageScroll } from './pageScroll.js';
-import { slider } from './slider.js';
+import { stagesSlider } from './stagesSlider.js';
 
 pageScroll();
-slider();
+stagesSlider();

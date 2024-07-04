@@ -54,10 +54,14 @@ const windowResizeHandler = () => {
     slideItemWidth = document.querySelector('.stages__item').offsetWidth;
     sliderPosition = slideItemWidth * slideNumber;
     sliderContainer.style.transform = `translateX(-${sliderPosition}px)`;
+
+    if (window.innerWidth > 768) {
+      sliderContainer.style.transform = `translateX(${0}px)`;
+    }
   });
 };
 
-export const slider = () => {
+export const stagesSlider = () => {
   checkButtonActive();
   checkPointActive();
   clickLeftButtonHandler();
