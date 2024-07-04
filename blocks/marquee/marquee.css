@@ -3,7 +3,7 @@
   color: #fff;
   display: flex;
   font: 22px 'MerriweatherRegular', 'Times New Roman', serif;
-  gap: 12px;
+  /* gap: 12px; */
   max-width: 1920px;
   overflow: hidden;
   padding: 19px 0;

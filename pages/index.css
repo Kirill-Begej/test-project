@@ -77,6 +77,7 @@
 
 @import url('../blocks/intro/__button/_type/intro__button_type_black.css');
 @import url('../blocks/intro/__button/_type/intro__button_type_transparent.css');
+@import url('../blocks/marquee/_position/marquee_position_right.css');
 @import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_left.css');
 @import url('../blocks/marquee/__list/_scroll/marquee__list_scroll_right.css');
 @import url('../blocks/title/_type/title_type_subtitle.css');

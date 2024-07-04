@@ -7,6 +7,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 12px));
+    transform: translateX(-100%);
   }
 }

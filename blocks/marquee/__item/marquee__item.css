@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   gap: 12px;
+  box-sizing: border-box;
 }
 
 .marquee__item::after {
@@ -10,4 +11,8 @@
   content: '';
   height: 6px;
   width: 6px;
+}
+
+.marquee__item:first-child {
+  padding-left: 12px;
 }
