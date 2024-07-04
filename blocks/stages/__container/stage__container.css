@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .stage__container {
     overflow: hidden;
     width: 100%;

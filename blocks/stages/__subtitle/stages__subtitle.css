@@ -9,7 +9,7 @@
   top: -2.5px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .stages__subtitle {
     letter-spacing: -1.2px;
     margin-left: -6px;

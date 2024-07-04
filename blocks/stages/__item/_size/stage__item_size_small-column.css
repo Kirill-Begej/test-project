@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .stage__item_size_small-column {
     grid-row: 1 / 3;
   }

@@ -5,7 +5,13 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 430px) {
   .title {
     font-size: 36px;
   }

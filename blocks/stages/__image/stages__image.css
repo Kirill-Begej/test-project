@@ -6,12 +6,19 @@
   width: 32.8%;
 }
 
+@media screen and (max-width: 768px) {
+  .stages__image {
+    bottom: 79%;
+    left: 40%;
+    max-width: 400px;
+    right: auto;
+    transform: rotate(-4deg);
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .stages__image {
     left: 4%;
-    right: auto;
-    bottom: 79%;
-    transform: rotate(-4deg);
-    width: 100%;
   }
 }
