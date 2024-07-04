@@ -2,3 +2,7 @@
   background-color: rgba(49, 49, 49, .2);
   cursor: auto;
 }
+
+.button_not-active:hover {
+  background-color: rgba(49, 49, 49, .2);
+}
