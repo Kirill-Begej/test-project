@@ -4,7 +4,7 @@
 @import url('../blocks/root/root.css');
 @import url('../blocks/title/title.css');
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/wrapper/wrapper.css');
+@import url('../blocks/intro/__wrapper/intro__wrapper.css');
 @import url('../blocks/container/container.css');
 @import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/header/header.css');
@@ -74,6 +74,7 @@
 @import url('../blocks/pagination-slider/__button/pagination-slider__button.css');
 @import url('../blocks/pagination-slider/__numbers/pagination-slider__numbers.css');
 @import url('../blocks/pagination-slider/__slide-number/pagination-slider__slide-number.css');
+@import url('../blocks/footer/footer.css');
 
 @import url('../blocks/intro/__button/_type/intro__button_type_black.css');
 @import url('../blocks/intro/__button/_type/intro__button_type_transparent.css');

@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  font: 16px 'GolosTextRegular', Arial, sans-serif;
+  line-height: 1.2;
+  color: rgba(49, 49, 49, .6);
+  background-color: var(--bgColor);
+  padding: 40px 0 72px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding-bottom: 66px;
+  }
+}
