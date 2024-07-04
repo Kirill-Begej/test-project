@@ -56,7 +56,7 @@ const windowResizeHandler = () => {
     sliderContainer.style.transform = `translateX(-${sliderPosition}px)`;
 
     if (window.innerWidth > 768) {
-      sliderContainer.style.transform = `translateX(${0}px)`;
+      sliderContainer.style.transform = 'translateX(0px)';
     }
   });
 };
