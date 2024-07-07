@@ -1,21 +1,24 @@
 .members__list {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(6, calc((100% - 40px) / 3));
+  grid-template-columns: repeat(3, calc((100% - 40px) / 3));
   list-style: none;
   margin: 0;
   padding: 0;
+  position: absolute;
+  inset: 0px;
+  transition: all .3s ease-out;
 }
 
 @media screen and (max-width: 768px) {
   .members__list {
-    grid-template-columns: repeat(6, calc((100% - 20px) / 2));
+    grid-template-columns: repeat(2, calc((100% - 20px) / 2));
   }
 }
 
 @media screen and (max-width: 375px) {
   .members__list {
     gap: 0;
-    grid-template-columns: repeat(6, 100%);
+    grid-template-columns: repeat(1, 100%);
   }
 }

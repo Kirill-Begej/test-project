@@ -8,7 +8,7 @@
   <meta name="keywords"
     content="Клуб четырех коней, шахматы, Васюкинский турнир">
   <meta name="author" content="Кирилл Бегей">
-  <script type="module" src="./components/index.js"></script>
+  <script type="module" src="./pages/index.js"></script>
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Клуб четырех коней</title>
@@ -142,7 +142,7 @@
           </picture>
         </div>
         <div class="pagination">
-          <button class="button" id="buttonLeft" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
+          <button class="button" id="buttonStagesLeft" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
@@ -155,7 +155,7 @@
             <li class="pagination__item"></li>
             <li class="pagination__item"></li>
           </ul>
-          <button class="button button_type_right" id="buttonRight" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
+          <button class="button button_type_right" id="buttonStagesRight" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть ввправо">
             <svg class="button__image">
               <use href="./images/pagination/pagination.svg#button"></use>
             </svg>
@@ -236,17 +236,17 @@
         </div>
         <div class="members__pagination">
           <div class="pagination-slider">
-            <button class="button pagination-slider__button" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
+            <button class="button pagination-slider__button" id="buttonMembersLeft" type="button" title="Пролистнуть влево." aria-label="Пролистнуть влево">
               <svg class="button__image">
                 <use href="./images/pagination/pagination.svg#button"></use>
               </svg>
             </button>
             <div class="pagination-slider__numbers">
-              <div class="pagination-slider__slide-number">3</div>
+              <div class="pagination-slider__slide-number" id="slideNumber"></div>
               <div class="pagination-slider__separator">/</div>
               <div class="pagination-slider__number-slides">6</div>
             </div>
-            <button class="button button_type_right pagination-slider__button" type="button" title="Пролистнуть вправо." aria-label="Пролистнуть вправо">
+            <button class="button button_type_right pagination-slider__button" type="button" id="buttonMembersRight" title="Пролистнуть вправо." aria-label="Пролистнуть вправо">
               <svg class="button__image">
                 <use href="./images/pagination/pagination.svg#button"></use>
               </svg>
@@ -278,6 +278,21 @@
       <div class="footer__text">Все персонажи, события и цитаты являются вымышленными и&nbsp;не&nbsp;принадлежат создателям сайта. С&nbsp;подробностями можно познакомиться в&nbsp;главе XXXIV романа Ильи Ильфа и&nbsp;Евгения Петрова «Двенадцать стульев».</div>
     </div>
   </footer>
+
+  <template id="membersSliderTemplate">
+    <ul class="members__list">
+
+    </ul>
+  </template>
+
+  <template id="membersSlideTemplate">
+    <li class="members__item">
+      <img src="" alt="Изображение участника турнира." class="members__image">
+      <h3 class="members__subtitle"></h3>
+      <p class="members__text"></p>
+      <a href="" class="members__link" target="_blank">Подробнее</a>
+    </li>
+  </template>
 </body>
 
 </html>

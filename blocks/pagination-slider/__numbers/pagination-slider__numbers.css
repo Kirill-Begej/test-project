@@ -1,10 +1,11 @@
 .pagination-slider__numbers {
   display: flex;
-  gap: 3px;
+  justify-content: space-between;
+  width: 33px;
 }
 
 @media screen and (max-width: 768px) {
   .pagination-slider__numbers {
-    gap: 1px;
+    width: 28px;
   }
 }

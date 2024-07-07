@@ -1,5 +1,5 @@
-const buttonLeft = document.querySelector('#buttonLeft');
-const buttonRight = document.querySelector('#buttonRight');
+const buttonLeft = document.querySelector('#buttonStagesLeft');
+const buttonRight = document.querySelector('#buttonStagesRight');
 const sliderContainer = document.querySelector('.stages__list');
 const points = document.querySelectorAll('.pagination__item');
 let slideItemWidth = document.querySelector('.stages__item').offsetWidth;
