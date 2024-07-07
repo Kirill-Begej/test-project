@@ -14,5 +14,5 @@ ___
 * оптимизация изображений;
 * JavaScript.
 ___
-Проект на GitHub Pages -
+Проект на GitHub Pages - https://kirill-begej.github.io/test-project/
 ___
