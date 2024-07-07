@@ -100,12 +100,14 @@ const setSlideNumber = () => {
 };
 
 const leftShiftSlider = () => {
+  clearInterval(moveInterval);
   clearTimeout(leftShiftTimeout);
   const rightSlider = renderReverseSlider();
   rightSlider.style.left = `${sliderWidth}px`;
   sliderWrapper.append(rightSlider);
   let currentSliders = document.querySelectorAll('.members__list');
   buttonLeft.disabled = true;
+  buttonRight.disabled = true;
   currentSliders[0].animate({left:['0px', `-${sliderWidth}px`]}, 300);
   currentSliders[1].animate({left:[`${sliderWidth}px`, '0px']}, 300);
   leftShiftTimeout = setTimeout(() => {
@@ -113,15 +115,19 @@ const leftShiftSlider = () => {
     currentSliders[1].style.left = '0px';
     currentSliders[0].remove();
     buttonLeft.disabled = false;
+    buttonRight.disabled = false;
+    moveByInterval();
   }, 300);
 };
 
 const rightShiftSlider = () => {
+  clearInterval(moveInterval);
   clearTimeout(rightShiftTimeout);
   const leftSlider = renderDirectSlider();
   leftSlider.style.left = `-${sliderWidth}px`;
   sliderWrapper.prepend(leftSlider);
   let currentSliders = document.querySelectorAll('.members__list');
+  buttonLeft.disabled = true;
   buttonRight.disabled = true;
   currentSliders[0].animate({left:[`-${sliderWidth}px`, '0px']}, 300);
   currentSliders[1].animate({left:['0px', `${sliderWidth}px`]}, 300);
@@ -129,7 +135,9 @@ const rightShiftSlider = () => {
     currentSliders[0].style.left = '0px';
     currentSliders[1].style.left = `${sliderWidth}px`;
     currentSliders[1].remove();
+    buttonLeft.disabled = false;
     buttonRight.disabled = false;
+    moveByInterval();
   }, 300);
 };
 
