@@ -14,7 +14,7 @@ ___
 * оптимизация изображений;
 * JavaScript.
 ___
-Проект на GitHub - https://test-project-indol-two.vercel.app/
+Проект на GitHub - https://github.com/Kirill-Begej/test-project
 ___
 Ссылка на демо сайта - https://test-project-indol-two.vercel.app/
 ___
